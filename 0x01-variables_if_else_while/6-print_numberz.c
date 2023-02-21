@@ -2,18 +2,15 @@
 /**
  * main - entry point
  *
- * Return: always 0
+ * Return: alway returns 0
  *
  */
 int main(void)
 {
-	int x = 0;
+	int a = 0;
 
-	for (; x<10 ; x++)
-	{
-		printf(%d, x);
-	}
+	for (; a < 10 ; a++)
+		putchar(a);
 	putchar('\n');
 	return (0);
 }
-

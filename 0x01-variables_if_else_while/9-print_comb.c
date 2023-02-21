@@ -7,13 +7,17 @@
  */
 int main(void)
 {
-	int x = 0;
+	int i;
 
-	for (; x<10 ; x++)
+	for (i = 10; i < 20; i++)
 	{
-		printf(%d, x);
+		putchar((i % 10));
+		if (i != 19)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
 }
-
